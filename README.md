@@ -1,12 +1,13 @@
 ![](preview.gif)
-# Watermarker
+# Remote command executor
 
-A java swing gui, that easily lets you watermark pictures. Set things like size and opacity, and the program will make a watermarked copy, so you still have the original.
-
+A java application made using sockets, which lets you execute linux shell commands remotely. You can also send files using *send-file*, and receive files using *get-file*.
 
 ## How to Run
 
-Install [Java](https://www.java.com/en/download/) from the Oracle website, then run the **Watermarker.jar**
+```
+sudo java -jar Client/Server.jar
+```
 
 ## License
 
